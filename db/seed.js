@@ -14,11 +14,11 @@ import chalk from "chalk"
     return brewery
  })
 
- console.log(breweryData)
+ 
 
-// breweries
-//     .deleteMany({})
-//     .then(() =>breweries.create(breweryData))
-//   .then(() => console.log(chalk.bgBlue.bold("Done! Breweries Created!")))
-//   .then(() => mongoose.disconnect())
-//   .catch(error => console.log(chalk.red("Error, somethings wrong!", error)))
+breweries
+    .deleteMany({})
+    .then(() =>breweries.create(breweryData))
+  .then(() => console.log(chalk.bgBlue.bold("Done! Breweries Created!")))
+  .then(() => mongoose.disconnect())
+  .catch(error => console.log(chalk.red("Error, somethings wrong!", error)))

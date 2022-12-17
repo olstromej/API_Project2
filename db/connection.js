@@ -5,7 +5,7 @@ mongoose.set("returnOriginal", false);
 
 mongoose.set('strictQuery', true)
 
-mongoose.connect("mongodb://127.0.0.1:27017/harry-api").catch((err) => {
+mongoose.connect("mongodb://127.0.0.1:27017/Brewery_db").catch((err) => {
   console.log(`Error connection to MongoDB: ${err.message}`);
 });
 
