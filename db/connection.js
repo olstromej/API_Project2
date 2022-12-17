@@ -9,11 +9,8 @@ mongoose.connect("mongodb://127.0.0.1:27017/harry-api").catch((err) => {
   console.log(`Error connection to MongoDB: ${err.message}`);
 });
 
-
-
-
 mongoose.connection.on("disconnected", () => {
-    console.log(chalk.blue("Disconnected from MongoDB!"));
+    console.log(chalk.underline.blue("Disconnected from MongoDB!"));
   });
 
   mongoose.connection.on("error", (err) => {
