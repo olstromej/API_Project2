@@ -15,7 +15,6 @@ import chalk from "chalk"
  })
 
  
-
 breweries
     .deleteMany({})
     .then(() =>breweries.create(breweryData))
