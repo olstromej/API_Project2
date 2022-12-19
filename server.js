@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 app.use(logger("dev"));
 
-app.use("/api", routes);
+app.use("/", routes);
 
 db.on("connected", () => {
   console.clear();

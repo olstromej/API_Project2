@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 
 const Schema = mongoose.Schema
 
-let Brewerey = new Schema({
+let Brewery = new Schema({
     "name": String,
     "brewery_type": String,
     "street": String,
@@ -10,4 +10,4 @@ let Brewerey = new Schema({
     "state": String,
 })
 
-export default mongoose.model("breweries", Brewerey)
+export default mongoose.model("breweries", Brewery)

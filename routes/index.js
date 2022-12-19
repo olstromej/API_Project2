@@ -4,7 +4,7 @@ import breweryRoutes from './breweries.js'
 const router = Router();
 
 router.get("/", (req, res) => {
-    res.send("This is the api root for breweries")
+    res.send("ThIS IS THE ROOT API FOR BREWERIES")
 });
 
 router.use("/breweries", breweryRoutes)
