@@ -2,8 +2,8 @@ import Brewery from "../models/Breweries.js";
 
 export const getBreweries = async (req, res) => {
    try {
-    const Brewery = await Brewery.find();
-    res.json(Brewery);
+    const brewery = await Brewery.find();
+    res.json(brewery);
    } catch (error) {
     res.status(500).json({error: error.message});
    }
