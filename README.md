@@ -44,7 +44,6 @@ Postman Get
 * MongoDB
 * Express
 * Mongoose
-* Express
 * Node.js
 * Chalk
 * Morgan
