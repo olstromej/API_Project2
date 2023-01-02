@@ -5,7 +5,9 @@ mongoose.set("returnOriginal", false);
 
 mongoose.set('strictQuery', true)
 
-mongoose.connect("mongodb://127.0.0.1:27017/Brewery_db").catch((err) => {
+const url = process.env.MONGO_URL || 'mongodb://127.0.0.1:27017/Brewery_db'
+
+mongoose.connect(url).catch((err) => {
   console.log(`Error connection to MongoDB: ${err.message}`);
 });
 
