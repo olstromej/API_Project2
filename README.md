@@ -17,6 +17,7 @@ Below are the directions to utilze the breweries JSON API.<br></br>
 <br></br>
 ### Deployed Link
 ---
+ https://apiproject2-production.up.railway.app/
 
 ### Screenshots
 ---
