@@ -19,6 +19,8 @@ Below are the directions to utilze the breweries JSON API.<br></br>
 ---
  https://apiproject2-production.up.railway.app/
 
+ https://apiproject2-production.up.railway.app/breweries
+
 ### Screenshots
 ---
 MongoDB Compass view of Database
